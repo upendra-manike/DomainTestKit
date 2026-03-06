@@ -6,6 +6,13 @@
 
 DomainTestKit is a domain-ready Playwright framework designed for enterprise quality engineering in FinTech, Healthcare, and E-commerce systems.
 
+## Why Teams Adopt DomainTestKit
+
+- Unifies UI, API, accessibility, performance, and security baseline checks in one framework.
+- Uses domain-flow architecture so tests map directly to business behavior.
+- Ships with CI, Docker, and reporting defaults to reduce onboarding effort.
+- Supports cross-domain scaling without rewriting the test foundation.
+
 It provides a single test platform for:
 
 - UI automation
@@ -234,6 +241,11 @@ Recommended next steps for stronger adoption:
 3. Add DB adapters (PostgreSQL, MySQL) in `database/`
 4. Add Slack/Teams test-result notifications
 5. Add contribution guide and code owners
+
+## Adoption and Launch Docs
+
+- Adoption guide for engineering teams: `docs/adoption.md`
+- Launch and outreach templates: `docs/launch-kit.md`
 
 ## Community and Governance
 
