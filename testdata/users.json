@@ -1,0 +1,17 @@
+[
+  {
+    "id": "U-1001",
+    "role": "customer",
+    "email": "fintech.user@example.test"
+  },
+  {
+    "id": "U-1002",
+    "role": "patient",
+    "email": "patient.user@example.test"
+  },
+  {
+    "id": "U-1003",
+    "role": "shopper",
+    "email": "shopper.user@example.test"
+  }
+]

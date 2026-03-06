@@ -1,0 +1,54 @@
+{
+  "name": "domain-test-kit",
+  "version": "0.1.0",
+  "description": "Domain-ready Playwright enterprise test framework for FinTech, Healthcare, and E-commerce.",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upendra-manike/DomainTestKit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/upendra-manike/DomainTestKit/issues"
+  },
+  "homepage": "https://github.com/upendra-manike/DomainTestKit#readme",
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "e2e",
+    "api-testing",
+    "accessibility",
+    "visual-regression",
+    "fintech",
+    "healthcare",
+    "ecommerce"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "mock:start": "node scripts/mock-server.js",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:fintech": "playwright test tests/fintech",
+    "test:healthcare": "playwright test tests/healthcare",
+    "test:ecommerce": "playwright test tests/ecommerce",
+    "test:api": "playwright test tests/api",
+    "test:nonfunctional": "playwright test tests/nonfunctional",
+    "report": "playwright show-report",
+    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
+    "allure:open": "allure open ./allure-report",
+    "lint": "eslint . --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "zap:baseline": "bash scripts/zap-baseline.sh"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.14.0",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.3.2",
+    "axe-playwright": "^2.1.0",
+    "dotenv": "^16.5.0",
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2"
+  }
+}

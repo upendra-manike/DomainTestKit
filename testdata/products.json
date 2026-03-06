@@ -1,0 +1,12 @@
+[
+  {
+    "sku": "SKU-1001",
+    "name": "Wireless Headphones",
+    "price": 99.99
+  },
+  {
+    "sku": "SKU-1002",
+    "name": "Laptop Stand",
+    "price": 39.99
+  }
+]
